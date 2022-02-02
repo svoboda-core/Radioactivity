@@ -7,7 +7,8 @@ import logo from './logo-radiation.png';
 
 const Header = () => {
 	return (
-		<Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+		<>
+		<Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
 			<Container>
 				<NavbarBrand href="/">
 					<img src={logo}
@@ -29,7 +30,8 @@ const Header = () => {
 					</Nav>
 				</NavbarCollapse>
 			</Container>
-		</Navbar>
+			</Navbar>
+		</>
 	)
 };
 
