@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.active{
+	color: var(--color-active);
+	cursor: default;
+}
+
+.ddd{
+	margin-top: 250px;
+	color: #fff;
+}
