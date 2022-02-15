@@ -1,6 +1,7 @@
 import React from "react";
 import { } from "react-bootstrap";
 
+
 const Footer = () => {
 	return (
 		<footer className="bg-dark text-center text-white fixed-bottom" >
@@ -9,23 +10,23 @@ const Footer = () => {
 				<section className="mb-4">
 					{/*  <!-- Facebook --> */}
 					<a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-					><i className="fab fa-facebook-f"/></a>
+					><i class="bi bi-facebook"></i></a>
 
 					{/* <!-- Twitter --> */}
 					<a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-					><i className="fab fa-twitter"/></a>
+					><i className="bi bi-twitter"/></a>
 
 					{/* <!-- Google --> */}
 					<a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-					><i className="fab fa-google"/></a>
+					><i className="bi bi-google"/></a>
 
 					{/* <!-- Instagram --> */}
 					<a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-					><i className="fab fa-instagram" /></a>
+					><i className="bi bi-instagram" /></a>
 
 					{/* <!-- Linkedin --> */}
 					<a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-					><i className="fab fa-linkedin-in" /></a>
+					><i class="bi bi-linkedin" /></a>
 
 					{/* <!-- Github --> */}
 					<a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
